@@ -1,5 +1,5 @@
-class Cannon {
-  constructor(x, y, width, height, angle) {
+class Cannon { //classe canhão 
+  constructor(x, y, width, height, angle) { //contruir o objeto com posição x e y , largura, altura e angulo
     this.x = x; //posição x é modificavel
     this.y = y; //posição y é modificavel
     this.width = width; //largura é modificavel
