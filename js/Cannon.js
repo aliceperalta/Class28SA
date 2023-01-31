@@ -11,7 +11,7 @@ class Cannon { //classe canhão
     this.angle += 0.02; //o caminhão vai ter seu angulo aumentando em 0.02
    }
    
-   if (keyisDown(LEFT_ARROW) && this.angle > -1.45) { //se a tecla abaixada é a SETA ESQUERDA e o angulo é maior que -1.45
+   if (keyIsDown(LEFT_ARROW) && this.angle > -1.45) { //se a tecla abaixada é a SETA ESQUERDA e o angulo é maior que -1.45
      this.angle -= 0.02; //o canhao vai ter seu angulo diminuido em 0.02
    }
     
